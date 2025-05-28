@@ -1,0 +1,116 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+div{
+	width: 900px;
+	
+	background: #4375FB;
+	border: 2px solid #0045FC;
+	padding: 10px;
+	margin: auto;
+}
+header{
+	background: #263A6F;
+	text-align: center;
+	padding: 25px;
+}
+nav{
+	background: #108CF4 ;
+	color: #0002A3;
+	margin: 10px 0px;
+	padding: 10px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	color: #0002A3;
+	padding: 0px 1px;
+}
+section{
+	background: #FFFFFF;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 660px;
+	float: left;
+}
+article{
+	background: #108CF4;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+form{
+	background: #108CF4 ;
+	margin:auto;
+	border: 1px solid white;
+	padding: 20px;
+	width: 40%;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 4px 4px black;
+}
+h3{
+	padding: 10px;
+	text-align: center;
+}
+label{
+	color: width;
+	font-family: verdana;
+	font-size: 16px;
+	padding: 10px;
+	display: inline-block;
+}
+input[type="text"],input[type="email"]{
+	padding: 5px;
+	width: 100%;
+}
+select{
+	width: 50%;
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 5px;
+
+}
+input[type="checkbox"]{
+	color:white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 0px;
+	display: inline-block;
+
+}
+#enviar{
+	padding: 10px;
+	width: 100%;
+	background: blue;
+	color: width;
+	margin:5px 0px;
+}
+#enviar:hover{
+	background: red;
+	color: width;
+
+}
+#caja:hover{
+	border: 10px solid;
+
+}
+aside{
+	background: #FFFFFF;
+	padding: 10PX;
+	width: 160px;
+	float: right;
+	height: 200px;
+}
+footer{
+	background: #108CF4;
+	text-align: center;
+	color: #FFFFFF;
+	clear: both;
+	padding: 20px;
+	
+}
+a:hover{
+	color: #FFFFFF;
+}
